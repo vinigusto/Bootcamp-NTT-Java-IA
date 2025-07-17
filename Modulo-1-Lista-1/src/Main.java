@@ -9,9 +9,9 @@ public class Main {
 
         while(continuar){
             do {
-                System.out.println("### Lista de Exercícios 1 ###\n" +
+                System.out.println("\n### Lista de Exercícios 1 ###\n" +
                         "Escolha qual programa quer executar:\n" +
-                        "1 - Escreva nome e idade, retorna frase.\n" +
+                        "1 - Escreva nome e ano de nascimento, retorna frase.\n" +
                         "2 - Entra com o tamanho do lado de um quadrado, calcula e retorna area.\n" +
                         "3 - Entre com base e altura de um triangulo, calcula e retorna area.\n" +
                         "4 - Receba nome e idade de duas pessoas, calcula e retorna diferenca das idades.\n" +
@@ -46,9 +46,11 @@ public class Main {
     {
         System.out.print("Digite o seu nome: ");
         String nome = scanner.nextLine();
-        System.out.print("Digite a sua idade: ");
-        int idade = scanner.nextInt();
+        System.out.print("Digite o seu ano de nascimento: ");
+        int ano = scanner.nextInt();
         scanner.nextLine();
+
+        int idade = 2025 - ano;
 
         System.out.println("Olá " + nome + ", você tem " + idade + " anos.");
     }
@@ -98,6 +100,7 @@ public class Main {
         System.out.print("Entre com a idade da pessoa 2: ");
         idade2 = scanner.nextInt();
         scanner.nextLine();
+
 
         if(idade1 > idade2) System.out.println(nome1 + " eh " + (idade1-idade2) + " mais velho(a) que " + nome2);
         else if (idade2 > idade1) System.out.println(nome2 + " eh " + (idade2-idade1) + " mais velho(a) que " + nome1);
