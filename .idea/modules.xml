@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Bootcamp-NTT-Java-IA.iml" filepath="$PROJECT_DIR$/Bootcamp-NTT-Java-IA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Modulo-2-Lista-1/Modulo-2-Lista-1.iml" filepath="$PROJECT_DIR$/Modulo-2-Lista-1/Modulo-2-Lista-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fundamentos-de-Linguagem-de-Programacao-Java/Desafios/Desafios.iml" filepath="$PROJECT_DIR$/Fundamentos-de-Linguagem-de-Programacao-Java/Desafios/Desafios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fundamentos-de-Linguagem-de-Programacao-Java/Estruturas-de-Controle/Estruturas-de-Controle.iml" filepath="$PROJECT_DIR$/Fundamentos-de-Linguagem-de-Programacao-Java/Estruturas-de-Controle/Estruturas-de-Controle.iml" />
     </modules>
   </component>
 </project>
